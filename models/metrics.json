@@ -1,0 +1,103 @@
+{
+  "critic": {
+    "frame": {
+      "low_contrast": {
+        "f1": 0.9993678887484198,
+        "precision": 1.0,
+        "recall": 0.9987365761212887
+      },
+      "weak_hierarchy": {
+        "f1": 0.9882903981264637,
+        "precision": 0.985981308411215,
+        "recall": 0.9906103286384976
+      },
+      "small_tap_target": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "small_text": {
+        "f1": 0.9995100440960314,
+        "precision": 1.0,
+        "recall": 0.9990205680705191
+      },
+      "crowded": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "missing_guidance": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "layer": {
+      "low_contrast": {
+        "f1": 0.9981032665964173,
+        "precision": 1.0,
+        "recall": 0.9962137147665124
+      },
+      "weak_hierarchy": {
+        "f1": 0.9882903981264637,
+        "precision": 0.985981308411215,
+        "recall": 0.9906103286384976
+      },
+      "small_tap_target": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "small_text": {
+        "f1": 0.9960515925243485,
+        "precision": 0.9994717379820391,
+        "recall": 0.9926547743966422
+      },
+      "crowded": {
+        "f1": 0.9982460536206466,
+        "precision": 1.0,
+        "recall": 0.9964982491245623
+      },
+      "missing_guidance": {
+        "f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    },
+    "frame_macro_f1": 0.9978613884951525,
+    "layer_macro_f1": 0.9967818851446459,
+    "n_train": 24000,
+    "n_val": 3000,
+    "params": 247590
+  },
+  "intent": {
+    "intent_acc": 1.0,
+    "focus_acc": 0.9599999785423279,
+    "n_questions": 1800,
+    "parity": {
+      "standard": {
+        "intent_acc": 0.9545454382896423,
+        "focus_acc": 1.0,
+        "n": 22,
+        "misses": [
+          "Increase the font size of the captions."
+        ]
+      },
+      "informal": {
+        "intent_acc": 0.9545454382896423,
+        "focus_acc": 0.9545454382896423,
+        "n": 22,
+        "misses": [
+          "u got feelings?"
+        ]
+      }
+    }
+  },
+  "narrator": {
+    "vocab": 361,
+    "templates": 108,
+    "final_loss": 0.09756275238814177
+  },
+  "torch": "2.14.0+cu130",
+  "train_seconds": 378.4
+}
